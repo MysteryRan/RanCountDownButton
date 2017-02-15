@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA6502101E53E8A5009462D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA65020F1E53E8A5009462D2 /* AppDelegate.swift */; };
+		AA6502121E53E8A5009462D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6502111E53E8A5009462D2 /* ViewController.swift */; };
+		AA6502151E53E8A5009462D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6502131E53E8A5009462D2 /* Main.storyboard */; };
+		AA6502171E53E8A5009462D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6502161E53E8A5009462D2 /* Assets.xcassets */; };
+		AA65021A1E53E8A5009462D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6502181E53E8A5009462D2 /* LaunchScreen.storyboard */; };
+		AA6502221E53E8F6009462D2 /* RanCountDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6502211E53E8F6009462D2 /* RanCountDownButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA65020C1E53E8A5009462D2 /* RanCountDownButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanCountDownButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA65020F1E53E8A5009462D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA6502111E53E8A5009462D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA6502141E53E8A5009462D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA6502161E53E8A5009462D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6502191E53E8A5009462D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA65021B1E53E8A5009462D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6502211E53E8F6009462D2 /* RanCountDownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RanCountDownButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6502091E53E8A5009462D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6502031E53E8A5009462D2 = {
+			isa = PBXGroup;
+			children = (
+				AA65020E1E53E8A5009462D2 /* RanCountDownButton */,
+				AA65020D1E53E8A5009462D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA65020D1E53E8A5009462D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA65020C1E53E8A5009462D2 /* RanCountDownButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA65020E1E53E8A5009462D2 /* RanCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				AA65020F1E53E8A5009462D2 /* AppDelegate.swift */,
+				AA6502111E53E8A5009462D2 /* ViewController.swift */,
+				AA6502211E53E8F6009462D2 /* RanCountDownButton.swift */,
+				AA6502131E53E8A5009462D2 /* Main.storyboard */,
+				AA6502161E53E8A5009462D2 /* Assets.xcassets */,
+				AA6502181E53E8A5009462D2 /* LaunchScreen.storyboard */,
+				AA65021B1E53E8A5009462D2 /* Info.plist */,
+			);
+			path = RanCountDownButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA65020B1E53E8A5009462D2 /* RanCountDownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA65021E1E53E8A5009462D2 /* Build configuration list for PBXNativeTarget "RanCountDownButton" */;
+			buildPhases = (
+				AA6502081E53E8A5009462D2 /* Sources */,
+				AA6502091E53E8A5009462D2 /* Frameworks */,
+				AA65020A1E53E8A5009462D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RanCountDownButton;
+			productName = RanCountDownButton;
+			productReference = AA65020C1E53E8A5009462D2 /* RanCountDownButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6502041E53E8A5009462D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mystery;
+				TargetAttributes = {
+					AA65020B1E53E8A5009462D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA6502071E53E8A5009462D2 /* Build configuration list for PBXProject "RanCountDownButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6502031E53E8A5009462D2;
+			productRefGroup = AA65020D1E53E8A5009462D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA65020B1E53E8A5009462D2 /* RanCountDownButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA65020A1E53E8A5009462D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA65021A1E53E8A5009462D2 /* LaunchScreen.storyboard in Resources */,
+				AA6502171E53E8A5009462D2 /* Assets.xcassets in Resources */,
+				AA6502151E53E8A5009462D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6502081E53E8A5009462D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6502121E53E8A5009462D2 /* ViewController.swift in Sources */,
+				AA6502101E53E8A5009462D2 /* AppDelegate.swift in Sources */,
+				AA6502221E53E8F6009462D2 /* RanCountDownButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA6502131E53E8A5009462D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6502141E53E8A5009462D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA6502181E53E8A5009462D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6502191E53E8A5009462D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA65021C1E53E8A5009462D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA65021D1E53E8A5009462D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA65021F1E53E8A5009462D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RanCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ran.RanCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA6502201E53E8A5009462D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RanCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ran.RanCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6502071E53E8A5009462D2 /* Build configuration list for PBXProject "RanCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA65021C1E53E8A5009462D2 /* Debug */,
+				AA65021D1E53E8A5009462D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA65021E1E53E8A5009462D2 /* Build configuration list for PBXNativeTarget "RanCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA65021F1E53E8A5009462D2 /* Debug */,
+				AA6502201E53E8A5009462D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA6502041E53E8A5009462D2 /* Project object */;
+}
