@@ -52,7 +52,7 @@ class RanCountDownButton: UIButton {
         
     }
     //开始倒计时
-    func starCountDownWithSeconf(secondCount: Int) {
+    func starCountDownWithSecond(secondCount: Int) {
         totalSecond = secondCount
         second = secondCount
         

@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
         //改变
         sender.isEnabled = false
-        sender.starCountDownWithSeconf(secondCount: 60)
+        sender.starCountDownWithSecond(secondCount: 60)
         sender.countChanging { (countBtn, second) -> (String) in
             return "\(second)秒"
         }
